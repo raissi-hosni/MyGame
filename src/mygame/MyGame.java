@@ -1,11 +1,17 @@
 
 package mygame;
 
-public class MyGame {
+import package2.Board;
+import package2.Home;
+import package1.Player;
 
-   
+public class MyGame {
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        Home form = new Home();
+        form.setVisible(true);
+       
+    
     }
     
 }
