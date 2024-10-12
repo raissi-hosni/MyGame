@@ -11,7 +11,7 @@ public class MyGame {
         Home form = new Home();
         form.setVisible(true);
        
-    
+       
     }
     
 }
