@@ -12,7 +12,7 @@ import java.util.Map;
 public class Player extends JPanel {
     
     private String name;
-    private int power = 200;
+    private int power = 100;
     private Image body;
     private Map<String, Integer> position;
     private final int width = 20;
@@ -61,7 +61,8 @@ public class Player extends JPanel {
         position.put("y", newY);
         repaint();  // Repaint the component after moving
     }
-
+    public int getPower(){return power;}
+    public String getFullName(){return this.name;}
     private class TAdapter extends KeyAdapter {
         @Override
         public void keyPressed(KeyEvent e) {
